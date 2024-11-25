@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "format": "npx prettier . --write",
+	 "build": "tsc",
+	 "run:no-interfaces": "node ./dist/src/without-interfaces/main.js"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "tsyringe": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.3",
+    "prettier": "3.3.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
